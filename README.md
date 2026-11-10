@@ -29,6 +29,10 @@ python3 locomo_eval.py score --locomo locomo10.json --verdicts data/verdicts/bec
 export OPENAI_API_KEY=...
 python3 locomo_eval.py judge --locomo locomo10.json --answers data/answers/becos_short_gpt-4o-mini.jsonl --judge gpt-4o-mini --out v.jsonl
 
+# paired difference with a conversation-level bootstrap (the paper's Table 2)
+python3 locomo_eval.py paired --locomo locomo10.json --a data/verdicts/becos_short_gpt-4o-mini__gpt-4o-mini.jsonl --b data/verdicts/whole_short_gpt-4o-mini__gpt-4o-mini.jsonl
+# ... add --convs conv-47,conv-48,conv-49,conv-50 for the least-used conversations
+
 # reproduce the whole-conversation and no-memory baselines
 python3 locomo_eval.py answer --locomo locomo10.json --context whole --model gpt-4o-mini --prompt short --out a.jsonl
 

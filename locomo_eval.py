@@ -17,6 +17,9 @@ Standalone: Python 3.10+, standard library only. Needs LoCoMo's locomo10.json
     # score verdicts: overall and per category
     python3 locomo_eval.py score --locomo locomo10.json --verdicts verdicts.jsonl
 
+    # paired difference of two systems on the same questions, with a conversation-level bootstrap
+    python3 locomo_eval.py paired --locomo locomo10.json --a becos.jsonl --b whole.jsonl [--convs conv-47,conv-48]
+
 Questions: categories 1-4 of LoCoMo (1,540); id = "<sample_id>-q<index in the sample's qa list, 3 digits>".
 Category ids: 1 multi-hop, 2 temporal, 3 open-domain, 4 single-hop. Every step resumes: rows already in
 --out are skipped. Answer and judge calls use temperature 0.
@@ -279,14 +282,45 @@ def cmd_score(a) -> None:
         print(f"note: {missing} questions have no verdict and are left out")
 
 
+def cmd_paired(a) -> None:
+    """A minus B: extra questions judged correct, difference in points, and a 95% interval from a
+    paired bootstrap that resamples whole conversations (the paper's Table 2)."""
+    import random
+    qs = load_questions(a.locomo)
+    va, vb = read_jsonl(a.a), read_jsonl(a.b)
+    convs = sorted({q["sample_id"] for q in qs.values()})
+    if a.convs:
+        convs = [c for c in convs if c in a.convs.split(",")]
+    ok = lambda v, i: 1 if v[i]["label"] == "CORRECT" else 0  # noqa: E731
+    per = {}
+    for c in convs:
+        ids = [i for i, q in qs.items() if q["sample_id"] == c]
+        missing = [i for i in ids if i not in va or i not in vb]
+        if missing:
+            raise SystemExit(f"{len(missing)} questions in {c} lack a verdict in one of the files")
+        per[c] = (sum(ok(va, i) - ok(vb, i) for i in ids), len(ids), sum(ok(va, i) for i in ids), sum(ok(vb, i) for i in ids))
+    n = sum(p[1] for p in per.values())
+    extra = sum(p[0] for p in per.values())
+    rng, boots = random.Random(a.seed), []
+    for _ in range(a.reps):
+        pick = [rng.choice(convs) for _ in convs]
+        boots.append(100 * sum(per[c][0] for c in pick) / sum(per[c][1] for c in pick))
+    boots.sort()
+    lo, hi = boots[int(0.025 * a.reps)], boots[int(0.975 * a.reps) - 1]
+    print(f"questions {n} in {len(convs)} conversations")
+    print(f"A {100 * sum(p[2] for p in per.values()) / n:.1f}   B {100 * sum(p[3] for p in per.values()) / n:.1f}")
+    print(f"extra correct {extra:+d}   difference {100 * extra / n:+.2f}   95% interval [{lo:+.2f}, {hi:+.2f}]"
+          f"  ({a.reps} conversation resamples, seed {a.seed})")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("answer", "judge", "score"):
+    for name in ("answer", "judge", "score", "paired"):
         p = sub.add_parser(name)
         p.add_argument("--locomo", type=Path, required=True, help="path to LoCoMo's locomo10.json")
         p.add_argument("--conv", help="one conversation, e.g. conv-26")
-        if name != "score":
+        if name not in ("score", "paired"):
             p.add_argument("--out", type=Path, required=True)
             p.add_argument("--workers", type=int, default=4)
             p.add_argument("--limit", type=int, help="first N questions only (for a dry run)")
@@ -296,8 +330,13 @@ def main() -> int:
     sub.choices["judge"].add_argument("--answers", type=Path, required=True)
     sub.choices["judge"].add_argument("--judge", default="gpt-4o-mini")
     sub.choices["score"].add_argument("--verdicts", type=Path, required=True)
+    sub.choices["paired"].add_argument("--a", type=Path, required=True, help="verdicts of system A")
+    sub.choices["paired"].add_argument("--b", type=Path, required=True, help="verdicts of system B")
+    sub.choices["paired"].add_argument("--convs", help="comma-separated subset, e.g. conv-47,conv-48")
+    sub.choices["paired"].add_argument("--reps", type=int, default=20000)
+    sub.choices["paired"].add_argument("--seed", type=int, default=20261110)
     a = ap.parse_args()
-    {"answer": cmd_answer, "judge": cmd_judge, "score": cmd_score}[a.cmd](a)
+    {"answer": cmd_answer, "judge": cmd_judge, "score": cmd_score, "paired": cmd_paired}[a.cmd](a)
     return 0
 
 
