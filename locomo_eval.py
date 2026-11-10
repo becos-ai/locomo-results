@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""LoCoMo answer / judge / score, as used in "What Moves a LoCoMo Score?" (becos, 2026).
+"""LoCoMo answer / judge / score, as used in "What Moves a LoCoMo Score?" (becosAI, 2026).
 
 Standalone: Python 3.10+, standard library only. Needs LoCoMo's locomo10.json
 (https://github.com/snap-research/locomo, CC BY-NC 4.0) and an OpenAI API key in OPENAI_API_KEY.
