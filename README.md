@@ -4,7 +4,7 @@ https://github.com/becos-ai/locomo-results
 
 Answers, judge verdicts and the evaluation script behind *What Moves a LoCoMo Score? Retrieval,
 Answer Prompts and Judges in a Long-Term Conversational Memory Benchmark* (Nikhil Kumar Jha and Amitoj
-Cheema, becos, 2026).
+Cheema, becosAI, 2026).
 
 ## What is here
 - `locomo_eval.py`: answer, judge and score LoCoMo questions. Python 3.10+, standard library only.
