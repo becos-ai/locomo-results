@@ -1,10 +1,9 @@
-# LoCoMo results for becos
+# LoCoMo results for Becos
 
 https://github.com/becos-ai/locomo-results
 
-Answers, judge verdicts and the evaluation script behind *What Moves a LoCoMo Score? Retrieval,
-Answer Prompts and Judges in a Long-Term Conversational Memory Benchmark* (Nikhil Kumar Jha and Amitoj
-Cheema, becosAI, 2026).
+Answers, judge verdicts and the evaluation script behind *What Moves a LoCoMo Score? Memory Context,
+Answer Prompts and Judges* (Nikhil Kumar Jha and Amitoj Cheema, becosAI, 2026).
 
 ## What is here
 - `locomo_eval.py`: answer, judge and score LoCoMo questions. Python 3.10+, standard library only.
@@ -13,7 +12,7 @@ Cheema, becosAI, 2026).
 - `data/verdicts/<system>_<prompt>_<answer model>__<judge>.jsonl`: one `{"id", "judge", "label"}` per
   question (`CORRECT` or `WRONG`).
 
-Systems: `becos` (context retrieved by becos), `whole` (the whole conversation), `none` (no context).
+Systems: `becos` (context retrieved by Becos), `whole` (the whole conversation), `none` (no context).
 Prompts: `short` (Nemori's, answers under 5–6 words) and `7step` (ours; only the final answer is
 judged). Answer models: gpt-4o-mini, gpt-4.1-mini. Judges: gpt-4o-mini, gpt-4.1-mini,
 deepseek-v4-flash (the no-memory run has no DeepSeek verdicts).
@@ -47,7 +46,7 @@ baseline over all 1,540 questions (about 21,000 prompt tokens each), under $0.50
 Question ids are `<sample_id>-q<index in that sample's qa list>`; the adversarial category (5) is left
 out, as in prior work. Category ids: 1 multi-hop, 2 temporal, 3 open-domain, 4 single-hop.
 
-becos itself is not part of this release. Researchers who want to run becos on their own data can
+Becos itself is not part of this release. Researchers who want to run Becos on their own data can
 request API access at hello@becos.ai.
 
 ## Licences
