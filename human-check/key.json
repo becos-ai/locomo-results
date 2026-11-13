@@ -1,0 +1,1652 @@
+{
+ "1": {
+  "id": "conv-26-q041",
+  "system": "becos",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "2": {
+  "id": "conv-41-q006",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "3": {
+  "id": "conv-41-q126",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "4": {
+  "id": "conv-47-q093",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "5": {
+  "id": "conv-41-q077",
+  "system": "becos",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "6": {
+  "id": "conv-43-q151",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "7": {
+  "id": "conv-43-q018",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "8": {
+  "id": "conv-47-q123",
+  "system": "whole",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "9": {
+  "id": "conv-47-q018",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "10": {
+  "id": "conv-26-q005",
+  "system": "becos",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "11": {
+  "id": "conv-44-q032",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "12": {
+  "id": "conv-42-q039",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "13": {
+  "id": "conv-42-q167",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "14": {
+  "id": "conv-41-q038",
+  "system": "whole",
+  "group": "agree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "15": {
+  "id": "conv-47-q027",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "16": {
+  "id": "conv-49-q040",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "17": {
+  "id": "conv-49-q008",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "18": {
+  "id": "conv-50-q029",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "19": {
+  "id": "conv-49-q058",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "20": {
+  "id": "conv-48-q155",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "21": {
+  "id": "conv-47-q113",
+  "system": "whole",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "22": {
+  "id": "conv-48-q095",
+  "system": "whole",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "23": {
+  "id": "conv-26-q051",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "24": {
+  "id": "conv-50-q120",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "25": {
+  "id": "conv-49-q126",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "26": {
+  "id": "conv-26-q051",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "27": {
+  "id": "conv-42-q107",
+  "system": "whole",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "28": {
+  "id": "conv-41-q055",
+  "system": "becos",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "29": {
+  "id": "conv-44-q089",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "30": {
+  "id": "conv-49-q070",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "31": {
+  "id": "conv-48-q056",
+  "system": "becos",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "32": {
+  "id": "conv-44-q059",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "33": {
+  "id": "conv-48-q024",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "34": {
+  "id": "conv-30-q005",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "35": {
+  "id": "conv-50-q058",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "36": {
+  "id": "conv-50-q009",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "37": {
+  "id": "conv-44-q048",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "38": {
+  "id": "conv-50-q119",
+  "system": "becos",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "39": {
+  "id": "conv-47-q134",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "40": {
+  "id": "conv-43-q000",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "41": {
+  "id": "conv-47-q086",
+  "system": "becos",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "42": {
+  "id": "conv-48-q037",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "43": {
+  "id": "conv-42-q081",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "44": {
+  "id": "conv-26-q056",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "45": {
+  "id": "conv-48-q048",
+  "system": "whole",
+  "group": "agree",
+  "category": 3,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "46": {
+  "id": "conv-42-q045",
+  "system": "becos",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "47": {
+  "id": "conv-41-q017",
+  "system": "whole",
+  "group": "disagree",
+  "category": 3,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "48": {
+  "id": "conv-26-q032",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "49": {
+  "id": "conv-49-q120",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "50": {
+  "id": "conv-42-q125",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "51": {
+  "id": "conv-42-q158",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "52": {
+  "id": "conv-48-q008",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "53": {
+  "id": "conv-49-q077",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "54": {
+  "id": "conv-44-q052",
+  "system": "whole",
+  "group": "agree",
+  "category": 3,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "55": {
+  "id": "conv-48-q061",
+  "system": "becos",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "56": {
+  "id": "conv-42-q060",
+  "system": "becos",
+  "group": "disagree",
+  "category": 3,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "57": {
+  "id": "conv-42-q010",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "58": {
+  "id": "conv-42-q007",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "59": {
+  "id": "conv-26-q107",
+  "system": "becos",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "60": {
+  "id": "conv-44-q037",
+  "system": "whole",
+  "group": "agree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "61": {
+  "id": "conv-43-q002",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "62": {
+  "id": "conv-41-q043",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "63": {
+  "id": "conv-30-q004",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "64": {
+  "id": "conv-30-q071",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "65": {
+  "id": "conv-42-q001",
+  "system": "whole",
+  "group": "agree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "66": {
+  "id": "conv-47-q023",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "67": {
+  "id": "conv-49-q017",
+  "system": "whole",
+  "group": "agree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "68": {
+  "id": "conv-43-q129",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "69": {
+  "id": "conv-49-q053",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "70": {
+  "id": "conv-42-q030",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "71": {
+  "id": "conv-43-q059",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "72": {
+  "id": "conv-26-q059",
+  "system": "becos",
+  "group": "disagree",
+  "category": 3,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "73": {
+  "id": "conv-43-q087",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "74": {
+  "id": "conv-41-q004",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "75": {
+  "id": "conv-30-q008",
+  "system": "becos",
+  "group": "agree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "76": {
+  "id": "conv-49-q049",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "77": {
+  "id": "conv-30-q024",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "78": {
+  "id": "conv-49-q019",
+  "system": "whole",
+  "group": "disagree",
+  "category": 3,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "79": {
+  "id": "conv-30-q048",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "80": {
+  "id": "conv-48-q120",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "81": {
+  "id": "conv-44-q023",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "82": {
+  "id": "conv-44-q115",
+  "system": "whole",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "83": {
+  "id": "conv-41-q118",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "84": {
+  "id": "conv-48-q162",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "85": {
+  "id": "conv-42-q011",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "86": {
+  "id": "conv-47-q049",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "87": {
+  "id": "conv-50-q127",
+  "system": "becos",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "88": {
+  "id": "conv-48-q012",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "89": {
+  "id": "conv-42-q173",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "90": {
+  "id": "conv-48-q024",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "91": {
+  "id": "conv-42-q005",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "92": {
+  "id": "conv-50-q080",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "93": {
+  "id": "conv-47-q002",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "94": {
+  "id": "conv-47-q063",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "95": {
+  "id": "conv-49-q077",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "96": {
+  "id": "conv-49-q007",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "97": {
+  "id": "conv-26-q096",
+  "system": "whole",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "98": {
+  "id": "conv-26-q047",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "99": {
+  "id": "conv-41-q019",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "100": {
+  "id": "conv-47-q104",
+  "system": "becos",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "101": {
+  "id": "conv-42-q054",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "102": {
+  "id": "conv-41-q061",
+  "system": "becos",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "103": {
+  "id": "conv-30-q044",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "104": {
+  "id": "conv-42-q024",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "105": {
+  "id": "conv-47-q040",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "106": {
+  "id": "conv-26-q053",
+  "system": "becos",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "107": {
+  "id": "conv-48-q122",
+  "system": "whole",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "108": {
+  "id": "conv-47-q092",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "109": {
+  "id": "conv-42-q173",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "110": {
+  "id": "conv-48-q091",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "111": {
+  "id": "conv-50-q042",
+  "system": "whole",
+  "group": "agree",
+  "category": 3,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "112": {
+  "id": "conv-43-q004",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "113": {
+  "id": "conv-49-q076",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "114": {
+  "id": "conv-43-q005",
+  "system": "becos",
+  "group": "disagree",
+  "category": 3,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "115": {
+  "id": "conv-43-q122",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "116": {
+  "id": "conv-48-q038",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "117": {
+  "id": "conv-42-q134",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "118": {
+  "id": "conv-42-q024",
+  "system": "becos",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "119": {
+  "id": "conv-26-q054",
+  "system": "whole",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "120": {
+  "id": "conv-50-q015",
+  "system": "becos",
+  "group": "agree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "121": {
+  "id": "conv-26-q145",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "122": {
+  "id": "conv-47-q128",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "123": {
+  "id": "conv-41-q028",
+  "system": "becos",
+  "group": "agree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "124": {
+  "id": "conv-26-q027",
+  "system": "becos",
+  "group": "disagree",
+  "category": 3,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "125": {
+  "id": "conv-42-q074",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "126": {
+  "id": "conv-49-q114",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "127": {
+  "id": "conv-48-q019",
+  "system": "becos",
+  "group": "agree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "128": {
+  "id": "conv-50-q148",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "129": {
+  "id": "conv-49-q090",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "130": {
+  "id": "conv-26-q052",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "131": {
+  "id": "conv-49-q086",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "132": {
+  "id": "conv-49-q053",
+  "system": "becos",
+  "group": "disagree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "133": {
+  "id": "conv-50-q058",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "134": {
+  "id": "conv-42-q108",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "135": {
+  "id": "conv-41-q084",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "136": {
+  "id": "conv-49-q018",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "137": {
+  "id": "conv-26-q019",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "WRONG",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "138": {
+  "id": "conv-48-q053",
+  "system": "becos",
+  "group": "agree",
+  "category": 2,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "139": {
+  "id": "conv-43-q072",
+  "system": "becos",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "140": {
+  "id": "conv-26-q038",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "141": {
+  "id": "conv-26-q146",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "142": {
+  "id": "conv-48-q084",
+  "system": "becos",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "143": {
+  "id": "conv-26-q096",
+  "system": "becos",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "144": {
+  "id": "conv-41-q106",
+  "system": "becos",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "145": {
+  "id": "conv-49-q128",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "146": {
+  "id": "conv-42-q115",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "WRONG",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "147": {
+  "id": "conv-49-q069",
+  "system": "becos",
+  "group": "agree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ },
+ "148": {
+  "id": "conv-49-q050",
+  "system": "whole",
+  "group": "disagree",
+  "category": 1,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "149": {
+  "id": "conv-42-q110",
+  "system": "whole",
+  "group": "disagree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "WRONG"
+  }
+ },
+ "150": {
+  "id": "conv-43-q149",
+  "system": "whole",
+  "group": "agree",
+  "category": 4,
+  "judges": {
+   "gpt-4o-mini": "CORRECT",
+   "gpt-4.1-mini": "CORRECT",
+   "deepseek-v4-flash": "CORRECT"
+  }
+ }
+}

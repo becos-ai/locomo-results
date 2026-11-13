@@ -11,6 +11,8 @@ Answer Prompts and Judges* (Nikhil Kumar Jha and Amitoj Cheema, becosAI, 2026).
   questions each.
 - `data/verdicts/<system>_<prompt>_<answer model>__<judge>.jsonl`: one `{"id", "judge", "label"}` per
   question (`CORRECT` or `WRONG`).
+- `human-check/`: the blind human check of the judges: 150 sampled answers, the key, one author's
+  grades and the scoring script (see its README).
 
 Systems: `becos` (context retrieved by Becos), `whole` (the whole conversation), `none` (no context).
 Prompts: `short` (Nemori's, answers under 5–6 words) and `7step` (ours; only the final answer is
@@ -50,8 +52,8 @@ Becos itself is not part of this release. Researchers who want to run Becos on t
 request API access at hello@becos.ai.
 
 ## Licences
-- `locomo_eval.py`: MIT. It contains Nemori's answer and judge prompts, reproduced verbatim from
+- `locomo_eval.py` and `human-check/human_check.py`: MIT. `locomo_eval.py` contains Nemori's answer and judge prompts, reproduced verbatim from
   nemori-ai/nemori at commit d2a6dff (`evaluation/locomo/search.py`, `metrics/llm_judge.py`), MIT
   licence; their notice is in `NOTICE-nemori.txt`. Our licence is in `LICENSE`.
-- `data/`: CC BY-NC 4.0, because the answers respond to LoCoMo's questions (LoCoMo is CC BY-NC 4.0,
+- `data/` and the sheets and key in `human-check/`: CC BY-NC 4.0, because the answers respond to LoCoMo's questions (LoCoMo is CC BY-NC 4.0,
   Maharana et al., 2024). Use for non-commercial research and credit LoCoMo.
