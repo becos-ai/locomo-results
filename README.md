@@ -3,7 +3,8 @@
 https://github.com/becos-ai/locomo-results
 
 Answers, judge verdicts and the evaluation script behind *What Moves a LoCoMo Score? Memory Context,
-Answer Prompts and Judges* (Nikhil Kumar Jha and Amitoj Cheema, becosAI, 2026).
+Answer Prompts and Judges* (Nikhil Kumar Jha and Amitoj Cheema, becosAI, 2026),
+[arXiv:2611.19199](https://arxiv.org/abs/2611.19199).
 
 ## What is here
 - `locomo_eval.py`: answer, judge and score LoCoMo questions. Python 3.10+, standard library only.
